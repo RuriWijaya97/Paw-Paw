@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paw Paw</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="resources/icon/favicon.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/fonts/fontawesome/css/all.min.css">
+    <script src="resources/fonts/fontawesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-main">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="resources/img/0.75x/Asset 3@0.75x.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Kategori Produk
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <a href="#"><i class="fas fa-shopping-cart fa-2x" style="margin-left: 10px; color: #ffff;"></i></a>
+                        <a href="#"><i class="fas fa-bell fa-2x" style="margin-left: 10px; color: #ffff;"></i></a>
+                        <a href="#"><i class="fas fa-heart fa-2x" style="margin-left: 10px; margin-right: 10px; color: #ffff;"></i></a>
+                        <div class="v-divider"><button type="button" class="btn btn-outline-light" style="margin-left: 10px;">Daftar</button> </div>
+                        <button type="button" class="btn btn-dark" style="margin-left: 80px;">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dummyimage.com/1440x500/7C7C7C/fff" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/1440x500/7C7C7C/fff" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/1440x500/7C7C7C/fff" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="content">
+        <div class="container">
+            <div class="row mt-5 mb-4">
+                <div class="col-md-12">
+                    <h2 style="font-weight: bolder;">New Products</h2>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-4 col-sm-6 mb-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product A</a>
+                            </h5>
+                            <p class=" card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 40.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product B</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 30.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product C</a>
+                            </h5>
+                            <p class="card-text ">Aksesoris</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 80.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 mb-2 ">
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product A</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 40.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product B</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 30.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product C</a>
+                            </h5>
+                            <p class="card-text ">Aksesoris</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 80.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row mt-5 mb-4 ">
+                <div class="col-md-12 ">
+                    <h2 style="font-weight: bolder; ">Best Seller</h2>
+                </div>
+            </div>
+            <div class="row mb-2 ">
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product A</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 40.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product B</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 30.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product C</a>
+                            </h5>
+                            <p class="card-text ">Aksesoris</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 80.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row mt-5 mb-4 ">
+                <div class="col-md-12 ">
+                    <h2 style="font-weight: bolder; ">Promo Brand Pilihan</h2>
+                </div>
+            </div>
+            <div class="row mb-2 ">
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product A</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 40.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product B</a>
+                            </h5>
+                            <p class="card-text ">Makanan</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 30.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-2 ">
+                    <div class="card " style="width: 18rem; ">
+                        <img src="https://dummyimage.com/600x400/000/fff " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 600;">
+                                <a href="detailproduct.html" class="text-dark" style="text-decoration: none;">Product C</a>
+                            </h5>
+                            <p class="card-text ">Aksesoris</p>
+                            <p class="card-text" style="font-weight: 600;">Rp. 80.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mainfooter " role="contentinfo ">
+        <div class="footer-middle ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-3 col-sm-6 ">
+                        <!--Column1-->
+                        <div class="footer-pad ">
+                            <h3>Paw Paw</h3>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <a href="# "></a>
+                                </li>
+                                <li><a href="# ">Tentang Paw Paw</a></li>
+                                <li><a href="# ">Visi Misi</a></li>
+                                <li><a href="# ">Blog</a></li>
+                                <li><a href="# ">Forum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <!--Column1-->
+                        <div class="footer-pad ">
+                            <h3>Jual Beli</h3>
+                            <ul class="list-unstyled ">
+                                <li><a href="# ">Makanan Kucing</a></li>
+                                <li><a href="# ">Makanan Anjing</a></li>
+                                <li><a href="# ">Makanan Burung</a></li>
+                                <li><a href="# ">Aksesoris Hewan</a></li>
+                                <li><a href="# ">Lain-Lain</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <!--Column1-->
+                        <div class="footer-pad ">
+                            <h3>Bantuan</h3>
+                            <ul class="list-unstyled ">
+                                <li><a href="# ">Paw Customer Care</a></li>
+                                <li><a href="# ">FAQ</a></li>
+                                <li><a href="# ">Syarat dan Ketentuan</a></li>
+                                <li><a href="# ">Kebijakan dan Privasi</a></li>
+                                <li>
+                                    <a href="# "></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <h3>Follow Us</h3>
+                        <ul class="social-network ">
+                            <li><a href="# "><i class="fab fa-facebook "></i></a></li>
+                            <li><a href="# "><i class="fab fa-twitter "></i></a></li>
+                            <li><a href="# "><i class="fab fa-pinterest "></i></a></li>
+                            <li><a href="# "><i class="fab fa-instagram "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 copy ">
+                        <p class="text-center ">&copy; Copyright 2021 - Paw Paw. All rights reserved.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
