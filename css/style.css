@@ -27,8 +27,8 @@ body {
 }
 
 .carousel-indicators [data-bs-target] {
-    height: 15px !important;
-    width: 15px !important;
+    height: 10px !important;
+    width: 10px !important;
     border-radius: 100% !important;
 }
 
