@@ -26,6 +26,11 @@
         border-color: #4EDDC5;
     }
     
+    .text-dark:hover {
+        text-decoration: underline !important;
+        color: #4EDDC5 !important;
+    }
+    
     .carousel-indicators [data-bs-target] {
         height: 10px !important;
         width: 10px !important;
