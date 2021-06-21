@@ -8,13 +8,13 @@
     <title>Paw Paw | Our pets deserve the best</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="resources/icon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="resources/icon/favicon.ico" type="image/x-icon" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="resources/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="resources/fonts/fontawesome/css/all.min.css" />
     <script src="resources/fonts/fontawesome/js/all.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-main">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="resources/img/0.75x/Asset 3@0.75x.png" alt="">
+                    <img src="resources/img/0.75x/Asset 3@0.75x.png" alt="" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,24 +37,209 @@
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li>
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider" />
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <a href="#"><i class="fas fa-shopping-cart fa-2x" style="margin-left: 10px; color: #ffff;"></i></a>
-                        <a href="#"><i class="fas fa-bell fa-2x" style="margin-left: 10px; color: #ffff;"></i></a>
-                        <a href="#"><i class="fas fa-heart fa-2x" style="margin-left: 10px; margin-right: 10px; color: #ffff;"></i></a>
-                        <div class="v-divider"><button type="button" class="btn btn-outline-light" style="margin-left: 10px;">Daftar</button> </div>
-                        <button type="button" class="btn btn-dark" style="margin-left: 80px;">Login</button>
+                        <input class="form-control me-2 box-search" type="search" placeholder="Search" aria-label="Search" />
+                        <a href="#"><i
+                  class="fas fa-shopping-cart fa-2x"
+                  style="margin-left: 10px; color: #ffff"
+                ></i
+              ></a>
+                        <a href="#"><i
+                  class="fas fa-bell fa-2x"
+                  style="margin-left: 10px; color: #ffff"
+                ></i
+              ></a>
+                        <a href="#"><i
+                  class="fas fa-heart fa-2x"
+                  style="margin-left: 10px; margin-right: 10px; color: #ffff"
+                ></i
+              ></a>
+                        <div class="v-divider">
+                            <button type="button" class="btn btn-outline-light" style="margin-left: 10px">
+                  Daftar
+                </button>
+                        </div>
+                        <button type="button" class="btn btn-dark" style="margin-left: 80px">
+                Login
+              </button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+    <section id="content">
+        <div class="container">
+            <div class="row mt-5 mb-3">
+                <div class="col-md-12">
+                    <h1 class="mt-g5" style="font-weight: bolder">Detail Pembelian</h1>
+                    <p>Barang yang dibeli</p>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-4 col-sm-6">
+                    <img src="https://dummyimage.com/400x400/000/fff" alt="" />
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h2 style="font-weight: bolder">Product A</h2>
+                    <h4 class="mt-4" style="font-weight: bolder">Rp. 40.000</h4>
+                    <input class="mt-2" type="number" name="jumlah" style="width: 60px" value="1" min="1" />
+                    <a href="#" class="ms-2">Tulis Catatan Tambahan</a>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bold mt-2">Ringkasan Belanja</h3>
+                            <br />
+                            <table class="table table-striped">
+                                <tr>
+                                    <td>Total Harga (1 Barang)</td>
+                                    <th>Rp. 40.000</th>
+                                </tr>
+                                <tr>
+                                    <td>Total Ongkos Kirim</td>
+                                    <th>Rp. 10.000</th>
+                                </tr>
+                            </table>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="ms-2 fw-bold">Total Tagihan</h5>
+                                </div>
+                                <div class="col">
+                                    <h5 class="ms-5 fw-bold">Rp. 50.000</h5>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn ms-2 mt-2 btn-main" type="button">
+                    Bayar
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h3 class="mb-4" style="font-weight: bold">
+                        Detail Alamat Pengiriman dan Penagihan
+                    </h3>
+                    <h4 style="font-weight: bolder">John Doe</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus minima enim amet. Ipsa saepe architecto et ducimus fuga voluptatibus ex veniam, reiciendis dicta dolores fugit? Qui aspernatur corporis magnam! Doloribus.
+                    </p>
+                    <div class="row">
+                        <div class="col-8 col-sm-6">
+                            <h5>Pilih Pengiriman</h5>
+                            <select name="" id="" class="form-select" aria-label="Default select example">
+                  <option value="" selected disabled>Pilih Pengiriman</option>
+                  <option value="">Regular</option>
+                  <option value="">Express</option>
+                </select>
+                        </div>
+                        <div class="col-4 col-sm-6">
+                            <h5>Pilih Kurir</h5>
+                            <select name="" id="" class="form-select" aria-label="Default select example">
+                  <option value="" selected disabled>Pilih Kurir</option>
+                  <option value="">JNE</option>
+                  <option value="">AnterAja</option>
+                </select>
+                        </div>
+                    </div>
+                    <br />
+                    <h5>Metode Pembayaran</h5>
+                    <select name="" id="" class="form-select" aria-label="Default select example">
+              <option value="" selected disabled>
+                Pilih Metode Pembayaran
+              </option>
+              <option value="">Transfer Bank</option>
+              <option value="">Faspay</option>
+            </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mainfooter" role="contentinfo ">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h3>Paw Paw</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="# "></a>
+                                </li>
+                                <li><a href="# ">Tentang Paw Paw</a></li>
+                                <li><a href="# ">Visi Misi</a></li>
+                                <li><a href="# ">Blog</a></li>
+                                <li><a href="# ">Forum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h3>Jual Beli</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="# ">Makanan Kucing</a></li>
+                                <li><a href="# ">Makanan Anjing</a></li>
+                                <li><a href="# ">Makanan Burung</a></li>
+                                <li><a href="# ">Aksesoris Hewan</a></li>
+                                <li><a href="# ">Lain-Lain</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h3>Bantuan</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="# ">Paw Customer Care</a></li>
+                                <li><a href="# ">FAQ</a></li>
+                                <li><a href="# ">Syarat dan Ketentuan</a></li>
+                                <li><a href="# ">Kebijakan dan Privasi</a></li>
+                                <li>
+                                    <a href="# "></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Follow Us</h3>
+                        <ul class="social-network">
+                            <li>
+                                <a href="# "><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="# "><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="# "><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="# "><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <p class="text-center">
+                            &copy; Copyright 2021 - Paw Paw. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
